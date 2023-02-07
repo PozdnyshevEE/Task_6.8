@@ -2,7 +2,7 @@ const inputText = document.querySelector('#inputText');
 const duplicateField = document.querySelector('#duplicateField');
 const consoleButton = document.querySelector('#consoleButton');
 
-inputText.addEventListener('input', (event) => {
+inputText.addEventListener('keydown', (event) => {
     duplicateField.textContent = event.target.value;
 })
 
