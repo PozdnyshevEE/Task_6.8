@@ -8,7 +8,6 @@
 body {
     font-family: "Helvetica", "Arial", sans-serif;
     display: flex;
-   
 }
 
 .content {
@@ -17,10 +16,6 @@ body {
     border: 1px solid;
     padding: 30px;
     line-height: 1.5;
-}
-
-#duplicateField {
-    word-break: break-all;
 }
 
 a {
